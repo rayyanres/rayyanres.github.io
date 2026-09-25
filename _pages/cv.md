@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/Rayyan_CV.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
+cv_format: jsonresume # options: rendercv, jsonresume
 description: Curriculum Vitae of Muhammad Rayyan, PhD student in Computer Science at Tulane University.
 toc:
   sidebar: left
