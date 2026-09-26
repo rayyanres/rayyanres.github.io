@@ -9,8 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Tulane University</p>
-    <p>New Orleans, LA, USA</p>
+    <p><b>Uptown Campus</b></p>
+    <p>411 Stanley Thomas Hall</p>
+    <p>New Orleans, LA 70118</p>
+    <p>&nbsp;</p>
+    <p><b>Downtown Campus</b></p>
+    <p>Triad, School of Medicine</p>
+    <p>New Orleans, LA 70112</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
