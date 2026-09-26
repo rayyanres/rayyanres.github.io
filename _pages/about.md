@@ -36,6 +36,11 @@ I am a PhD student in Computer Science at Tulane University, advised by [Dr. Jih
 Before joining Tulane, I completed my MS in Computer Science at Old Dominion University, where I worked on genomic modeling and DNA foundation models. I earned my Bachelor's degree in Software Engineering from the National University of Sciences and Technology (NUST), Islamabad.
 
 <style>
+  /* Remove the extra blank gap before "News" caused by the taller right column */
+  .clearfix:after {
+    clear: left;
+  }
+
   /* Capitalize the "news" section heading */
   h2 a[href$="/news/"] {
     text-transform: capitalize;
@@ -55,10 +60,6 @@ Before joining Tulane, I completed my MS in Computer Science at Old Dominion Uni
   }
   .news td {
     border-left: 3px solid var(--global-theme-color);
-    padding-left: 1rem;
-    vertical-align: top;
-  }
-</style>
     padding-left: 1rem;
     vertical-align: top;
   }
