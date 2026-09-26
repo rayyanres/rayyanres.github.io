@@ -122,14 +122,7 @@
       "summary": "Selected as one of 1,000 students globally for the AI Programming with Python Nanodegree course."
     }
   ],
-  "certificates": [
-    {
-      "name": "AI Programming with Python Nanodegree",
-      "date": "2023-01-01",
-      "issuer": "Udacity (AWS Sponsored)",
-      "icon": "fa-solid fa-certificate"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
       "name": "MCTS Guided Chunk Optimization with Beam Search for Retrieval Augmented Generation",
@@ -226,11 +219,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    },
-    {
-      "language": "Urdu",
-      "fluency": "Native speaker",
-      "icon": ""
     }
   ],
   "interests": [
@@ -238,6 +226,16 @@
       "name": "Research Interests",
       "icon": "fa-solid fa-flask",
       "keywords": ["Medical AI", "Multimodal Deep Learning", "Medical Imaging", "Generative AI"]
+    },
+    {
+      "name": "Professional Membership",
+      "icon": "fa-solid fa-id-badge",
+      "keywords": ["Professional Member, IEEE (Apr 2026 – Present)"]
+    },
+    {
+      "name": "Academic Service",
+      "icon": "fa-solid fa-scale-balanced",
+      "keywords": ["Peer Reviewer, IEEE Transactions on Systems, Man, and Cybernetics", "Peer Reviewer, IEEE Access", "Peer Reviewer, SciPy Conference 2026"]
     }
   ],
   "references": [],
