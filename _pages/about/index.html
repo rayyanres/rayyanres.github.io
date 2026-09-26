@@ -9,4 +9,27 @@
   .social .contact-note {
     color: #333333 !important;
   }
+
+  /* Capitalize the "news" section heading */
+  h2 a[href$="/news/"] {
+    text-transform: capitalize;
+  }
+
+  /* News list: bold accent date column + colored accent bar per entry */
+  .news table {
+    border-collapse: separate;
+    border-spacing: 0 0.9rem;
+  }
+  .news th {
+    font-weight: 700;
+    color: var(--global-theme-color);
+    white-space: nowrap;
+    padding-right: 1.5rem;
+    vertical-align: top;
+  }
+  .news td {
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 1rem;
+    vertical-align: top;
+  }
 </style> </body></html>
