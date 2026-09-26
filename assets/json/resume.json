@@ -7,8 +7,6 @@
     "phone": "",
     "summary": "CS PhD student at Tulane University advancing Medical AI, Multimodal Deep Learning, and Generative AI across complex multimodal clinical data. Investigating medical world models to simulate disease trajectories, forecast future clinical states and diagnostic outcomes, and learn from medical imaging.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "New Orleans",
       "countryCode": "US",
       "region": "Louisiana"
@@ -135,24 +133,66 @@
   "publications": [
     {
       "name": "MCTS Guided Chunk Optimization with Beam Search for Retrieval Augmented Generation",
-      "publisher": "IEEE-FIT'25",
+      "publisher": "IEEE-FIT'25 · Published",
       "releaseDate": "2025-01-01",
       "url": "https://doi.org/10.1109/FIT67061.2025.11333696",
-      "summary": "Developed a structured retrieval pipeline for RAG using efficient chunking, semantic filtering, and duplicate passage suppression to optimize context relevance."
+      "summary": "S. Farooq, M. Rayyan, N. Iltaf, I. Islam. Developed a structured retrieval pipeline for RAG using efficient chunking, semantic filtering, and duplicate passage suppression to optimize context relevance."
     },
     {
       "name": "LLMs with Tools: An Empirical Evaluation of the Thought Action Observation Paradigm",
-      "publisher": "ICMI'25",
+      "publisher": "ICMI'26 · Published",
       "releaseDate": "2026-01-01",
       "url": "https://doi.org/10.1109/ICMI68585.2026.11539909",
-      "summary": "Empirically evaluated TAO based tool augmented LLMs, analyzing tool selection, parameter extraction, execution success, and response integration."
+      "summary": "M. Usman, N. Iltaf, M. Rayyan, T. A. Rana. Empirically evaluated TAO based tool augmented LLMs, analyzing tool selection, parameter extraction, execution success, and response integration."
     },
     {
       "name": "Multi Head Attention for Pulmonary Embolism Detection in CT Angiography",
-      "publisher": "IEEE-IBCAST'25",
+      "publisher": "IEEE-IBCAST'25 · Accepted",
       "releaseDate": "2025-01-01",
       "url": "https://doi.org/10.13140/RG.2.2.24206.88646",
-      "summary": "Proposed MHA UNet to enhance detection of peripheral emboli in CT pulmonary angiography, outperforming standard baselines such as nnU-Net and Swin Transformer."
+      "summary": "Z. T. Hussain, M. Rayyan, A. Gohar. Proposed MHA UNet to enhance detection of peripheral emboli in CT pulmonary angiography, outperforming standard baselines such as nnU-Net and Swin Transformer."
+    },
+    {
+      "name": "Foveated ViT: Pre-Encoder Token Sparsification for Efficient Plant Seedling Recognition",
+      "publisher": "Manuscript Under Review",
+      "releaseDate": "2026-01-01",
+      "summary": "M. Rayyan, N. Adnan, S. Fang, F. Abbas, M. Umar. Proposed Foveated ViT, utilizing a lightweight Scout Network to sparsify background tokens prior to self-attention layers, reaching 97.65% accuracy with 4.3M parameters."
+    },
+    {
+      "name": "A Survey of Methods, Architectures, and Deployment Challenges for Large Reasoning Models",
+      "publisher": "Manuscript Under Review",
+      "releaseDate": "2026-01-01",
+      "summary": "M. Rayyan, Z. Qadir, A. Hamza, M. Quddus, R. Khan, S. Younas, M. Usman, N. Saeed. Authored a comprehensive survey synthesizing core methodologies driving advanced LLM reasoning, covering reinforcement learning, search algorithms, and inference time compute scaling."
+    },
+    {
+      "name": "Multiomics Reveals Epigenetic Control of Fibroblast Activity After Myocardial Infarction and a Key Role for RUNX Transcription Factors",
+      "publisher": "Manuscript Under Review",
+      "releaseDate": "2026-01-01",
+      "summary": "Y. Li, X. Zhang, K. Ghimire, N. Khatri, L. Wang, Q. Liu, M. Shiri, M. Rayyan, S. Upadhayaya, B. Li, J. Francis, C. A. Simintiras, R. Li, J. Sun, X. Fu. Contributed to computational and functional genomic analysis in a multiomics cardiac repair investigation."
+    },
+    {
+      "name": "Myofibroblast Contractile Machinery is Essential for Cardiac Repair after Myocardial Infarction",
+      "publisher": "Manuscript Under Review",
+      "releaseDate": "2026-01-01",
+      "summary": "L. Wang, Y. Li, X. Zhang, Q. Liu, K. Ghimire, N. Khatri, M. Rayyan, J. Jung, J. Sun, X. Fu. Contributed to data processing and computational analysis evaluating cardiac repair mechanisms post myocardial infarction."
+    },
+    {
+      "name": "Privacy Preserving AI Agent Architecture for Medical Calculators",
+      "publisher": "Manuscript Under Review",
+      "releaseDate": "2026-01-01",
+      "summary": "I. Itrat, M. Rayyan, S. Sheikh, N. Bibi. Developed a Model Context Protocol (MCP) and small language model (SLM) based agentic framework for secure, privacy preserving clinical calculations."
+    },
+    {
+      "name": "A Unified Multi Task Architecture for Joint Pancreatic Anatomy Lesion Segmentation and Tumor Grading",
+      "publisher": "Manuscript In Preparation",
+      "releaseDate": "2026-01-01",
+      "summary": "M. Rayyan, J. Hamm. Investigating unified multimodal volumetric architectures for simultaneous pancreas and tumor segmentation along with classification tasks."
+    },
+    {
+      "name": "Dynamic Cardiovascular World Models for Adverse Event Forecasting from Longitudinal EHR Trajectories",
+      "publisher": "Manuscript In Preparation",
+      "releaseDate": "2026-01-01",
+      "summary": "M. Rayyan, J. Hamm, F. Han. Developing a time aware cardiovascular world model on large scale EHR trajectories to learn latent patient disease state transitions and dynamically predict major adverse cardiovascular events (MACE)."
     }
   ],
   "skills": [
