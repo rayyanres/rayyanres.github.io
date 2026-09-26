@@ -7,7 +7,7 @@ subtitle: PhD Student, Computer Science, <a href='https://tulane.edu'>Tulane Uni
 profile:
   align: right
   image: prof_pic.jpg
- image_circular: true # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p><b>Uptown Campus</b></p>
     <p>411 Stanley Thomas Hall</p>
