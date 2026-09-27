@@ -43,17 +43,6 @@ I am a PhD student in Computer Science at Tulane University, advised by [Dr. Jih
 Before joining Tulane, I started my MS in Computer Science at Old Dominion University, where I worked on genomic modeling and DNA foundation models. I earned my Bachelor's degree in Software Engineering from the National University of Sciences and Technology (NUST), Islamabad.
 
 <style>
-  .social {
-    background-color: #f2f2f2;
-    border-radius: 12px;
-    padding: 2rem 1rem;
-    margin-top: 1.5rem;
-  }
-  .social .contact-icons a i::before,
-  .social .contact-note {
-    color: #333333 !important;
-  }
-
   /* Capitalize the "news" section heading */
   h2 a[href$="/news/"] {
     text-transform: capitalize;
@@ -77,3 +66,25 @@ Before joining Tulane, I started my MS in Computer Science at Old Dominion Unive
     vertical-align: top;
   }
 </style>
+
+<script>
+  // Replace the default hover tooltip (which shows the raw link/username) on
+  // the social icons with a clean, human-readable label.
+  document.querySelectorAll(".social .contact-icons a").forEach(function (a) {
+    var href = a.getAttribute("href") || "";
+    var label = null;
+    if (href.indexOf("mailto:") === 0) {
+      label = "Email";
+    } else if (href.indexOf("github.com") !== -1) {
+      label = "GitHub";
+    } else if (href.indexOf("linkedin.com") !== -1) {
+      label = "LinkedIn";
+    } else if (href.indexOf("scholar.google.com") !== -1) {
+      label = "Google Scholar";
+    }
+    if (label) {
+      a.setAttribute("title", label);
+      a.setAttribute("aria-label", label);
+    }
+  });
+</script>
