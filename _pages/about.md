@@ -31,7 +31,14 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD student in Computer Science at Tulane University, advised by [Dr. Jihun Hamm](https://www.cs.tulane.edu/~jhamm3/). My research focuses on Medical AI, Multimodal Deep Learning, Medical Imaging, and Generative AI, with an emphasis on modeling complex multimodal clinical data. I am particularly interested in medical world models that simulate disease trajectories, forecast future clinical states, and learn directly from medical imaging.
+I am a PhD student in Computer Science at Tulane University, advised by [Dr. Jihun Hamm](https://www.cs.tulane.edu/~jhamm3/). My research focuses on modeling complex multimodal clinical data. I am particularly interested in medical world models that simulate disease trajectories, forecast future clinical states, and learn directly from medical imaging.
+
+<div class="interest-tags">
+  <span class="interest-tag"><i class="fa-solid fa-brain"></i> Medical AI</span>
+  <span class="interest-tag"><i class="fa-solid fa-layer-group"></i> Multimodal Deep Learning</span>
+  <span class="interest-tag"><i class="fa-solid fa-x-ray"></i> Medical Imaging</span>
+  <span class="interest-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Generative AI</span>
+</div>
 
 Before joining Tulane, I started my MS in Computer Science at Old Dominion University, where I worked on genomic modeling and DNA foundation models. I earned my Bachelor's degree in Software Engineering from the National University of Sciences and Technology (NUST), Islamabad.
 
