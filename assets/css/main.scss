@@ -109,6 +109,16 @@ h6,
   color: #8b94a3;
 }
 
+// CV entries: the italic description/summary line under each job or degree
+// (rendered by the al_folio_cv gem as an inline-styled <h6>, so it has no
+// class of its own to hook — matched on the inline style instead) gets a
+// softer, muted tone instead of full-strength body text, so it reads as
+// secondary detail under the bold title/institution lines.
+.cv h6[style*="italic"] {
+  color: var(--global-text-color-light);
+  font-weight: 400;
+}
+
 // Research-interest tag chips (used on the about page)
 .interest-tags {
   display: flex;
